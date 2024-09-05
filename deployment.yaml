@@ -15,6 +15,7 @@ spec:
       containers:
         - name: react-app
           image: mohsin1056/gitops01:795bb18fcffa8abc35a86f17af53ac11f4dc1ad7
+          ##     docker-hub/image:tag  
           imagePullPolicy: Always
           ports:
             - containerPort: 80
