@@ -30,3 +30,4 @@ Note: ArgoCD installed in the same cluster in **argocd** namespace
 
 For **synchronization of Infra repo with ArgoCD,** so that any change in Infra repos will trigger the argoCD deployment. We create webhooks in the Infra Reop. In the WEbhook URL, give the Service Public IP of ArgoCD, in our case  we are using minikube, we use ngRok.
 
+Also Enable Auto-sync on the ArgoCD application side as well...!!
